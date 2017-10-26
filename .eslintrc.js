@@ -14,6 +14,6 @@ module.exports = {
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     // allows (but does not require) trailing commas when the last element or property is in a different line
-    'comma-dangle': ['error', 'always-multiline']
+    "comma-dangle": ["error", "only-multiline"]
   }
 }
